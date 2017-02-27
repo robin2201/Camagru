@@ -1,0 +1,235 @@
+@font-face {
+    font-family: 'billabongregular';
+    src: url('https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.eot');
+    src: url('https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.eot?#iefix') format('embedded-opentype'),
+    url('https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.woff') format('woff'),
+    url('https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.ttf') format('truetype'),
+    url('https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.svg#billabongregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html {
+    background-color: #939393;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../fonts/seigaiha.png);
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    background: transparent;
+
+}
+
+header{
+    width: 100%;
+    background-color: #e76e3c;
+    border-bottom: dashed  #e76e4c;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.pngImg{
+    width: 50px;
+}
+
+#logo{
+    padding-left: 2rem;
+    padding-top: 2rem;
+    width: 8rem;
+    animation: bounceIn 2s;
+}
+#logo:hover {
+    transform: rotate(10deg) scale(1.1);
+}
+
+
+
+#title {
+    font-family: billabong, 'billabongregular';
+    text-align: center;
+    font-weight: 100;
+    font-size: 9rem;
+    margin: 2rem 0;
+    letter-spacing: -1px;
+    text-shadow: 0 4px 0 rgba(18, 86, 136, 0.11);
+
+}
+
+#title a:link {
+    text-decoration: none;
+}
+
+#title a:focus {
+    outline: 0;
+}
+
+#ButtonIndex {
+    width: 22%;
+    display: block;
+    margin: 8% 39% 2%;
+    border: 1px solid  #e76e3c;
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px #e76e3c;
+}
+
+#ButtonIndex p{
+    text-align: center;
+}
+#selectionPng{
+    display: inline-block;
+}
+
+#ButtonIndex a {
+    text-decoration: none;
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+button {
+    border-radius: 25px;
+    background-color: aliceblue;
+}
+
+#choice{
+    text-align: center;
+}
+
+.home{
+    background-color: #e76e3c;
+    display: inline-block;
+    margin-left: 25%;
+    text-align: center;
+    border: 1px solid #e76e3c;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+}
+
+.my_gallery{
+    margin-left: 8%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+
+}
+
+.my_gallery img {
+    text-align: center;
+    width: 20rem;
+    height: 15rem;
+    padding: 5px 5px 5px 5px;
+}
+
+.myElem{
+    margin: 4px 4px 4px 4px;
+    border: 1px solid #e76e3c;
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px #e76e3c;
+    align-items: center;
+}
+
+#RegisterForm{
+    margin: 8% 33% 2% 33%;
+    border: 1px solid  #e76e3c;
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px #e76e3c;
+    height: 80%;
+}
+
+#RegisterForm form {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 22%;
+}
+
+#LoginForm {
+    margin: 8% 33% 2% 33%;
+    border: 1px solid  #e76e3c;
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px #e76e3c;
+    height: 80%;
+}
+
+#LoginForm form {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    width: 22%;
+}
+
+#FormMailReset{
+    margin: 8% 33% 2% 33%;
+    border: 1px solid  #e76e3c;
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px #e76e3c;
+    height: 80%;
+}
+
+#FormMailReset form{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    width: 22%;
+}
+
+.test {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.GalleryPictures{
+    margin: 2% 2% 2% 2%;
+    border: 1px solid #e76e3c;
+    border-radius: 12px;
+    box-shadow: 2px 2px 1px #e76e3c;
+    align-content: flex-start;
+}
+
+.test img{
+    text-align: center;
+    width: 20rem;
+    height: 15rem;
+    padding: 5px 5px 5px 5px;
+}
+
+
+.pagination{
+
+    text-align: center;
+}
+
+.pagination a{
+    border:1px solid #e76e3c;
+    border-radius: 4px;
+    padding: 4px 4px 4px 4px;
+     text-decoration: none;
+     text-decoration-color: #e76e3c;
+}
+
+.footer {
+    background-color: #e76e3c;
+    bottom: 0;
+    height: 12%;
+}
+
